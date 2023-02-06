@@ -7,7 +7,8 @@ Paper published at Automatica
 Add a link to ArXiv version.
 
 
-This project contains all the MATLAB code for simulations of the paper.
+This project contains all the MATLAB code for the simulations shown in the paper.
+Requires the CORA toolbox available on MATLAB to compute the zonotopes.
 
 To cite this work use:
 
