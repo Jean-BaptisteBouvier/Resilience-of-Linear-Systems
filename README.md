@@ -2,8 +2,7 @@
 
 This project studies the resilience of linear systems to a partial loss of control authority over their actuators.
 
-This project is based on the paper "Resilience of Linear Systems to Partial Loss of Control Authority" by Jean-Baptiste Bouvier and Melkior Ornik, published by Automatica.
-The ArXiv version of this work is available [here](https://arxiv.org/abs/2209.08034).
+This project is based on the paper ["Resilience of Linear Systems to Partial Loss of Control Authority"](https://arxiv.org/abs/2209.08034) by Jean-Baptiste Bouvier and Melkior Ornik, published by Automatica.
 
 
 This project contains all the MATLAB code for the simulations shown in the paper.
