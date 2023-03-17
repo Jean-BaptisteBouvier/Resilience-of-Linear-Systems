@@ -2,7 +2,7 @@
 
 This project studies the resilience of linear systems to a partial loss of control authority over their actuators.
 
-This project is based on the paper ["Resilience of Linear Systems to Partial Loss of Control Authority"](https://arxiv.org/abs/2209.08034) by Jean-Baptiste Bouvier and Melkior Ornik, published by Automatica.
+This project is based on the paper ["Resilience of Linear Systems to Partial Loss of Control Authority"](https://doi.org/10.1016/j.automatica.2023.110985) by Jean-Baptiste Bouvier and Melkior Ornik, also available on [ArXiv](https://arxiv.org/abs/2209.08034).
 
 
 This project contains all the MATLAB code for the simulations shown in the paper.
@@ -33,9 +33,9 @@ Requires the CORA toolbox available on MATLAB to compute the zonotopes.
   author = {Jean-Baptiste Bouvier and Melkior Ornik},    
   journal = {Automatica},    
   year = {2023},   
-  volume = {},  
-  number = {},  
-  pages = {}  
+  volume = {152},
+  pages = {110985},
+  doi = {10.1016/j.automatica.2023.110985}
 }
 ```
 
