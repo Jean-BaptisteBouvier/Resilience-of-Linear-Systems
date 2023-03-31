@@ -1,4 +1,4 @@
-# Resilience-of-Linear-Systems
+# Resilience of Linear Systems
 
 This project studies the resilience of linear systems to a partial loss of control authority over their actuators.
 
@@ -9,7 +9,7 @@ This project contains all the MATLAB code for the simulations shown in the paper
 Requires the CORA toolbox available on MATLAB to compute the zonotopes.
 
 
-**File Structure**
+## File Structure
 ---
 
 - The ADMIRE simulation is run with amire_reachability.m
@@ -19,13 +19,12 @@ Requires the CORA toolbox available on MATLAB to compute the zonotopes.
 
 
 
-**Running**
+## Running
 ---
 
 
 
-
-**Citation**
+## Citation
 ---
 ```
 @article{bouvier2023resilience,  
@@ -40,9 +39,9 @@ Requires the CORA toolbox available on MATLAB to compute the zonotopes.
 ```
 
 
-**Contributors**
+## Contributors
 ---
-- [Jean-Baptiste Bouvier](https://github.com/Jean-BaptisteBouvier)
+- [Jean-Baptiste Bouvier](https://jean-baptistebouvier.github.io/)
 - [Melkior Ornik](https://mornik.web.illinois.edu/)
 
 
