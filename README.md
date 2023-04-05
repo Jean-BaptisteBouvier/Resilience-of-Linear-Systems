@@ -10,7 +10,6 @@ Requires the CORA toolbox available on MATLAB to compute the zonotopes.
 
 
 ## File Structure
----
 
 - The ADMIRE simulation is run with amire_reachability.m
 - The temperature simulation is run with temperature.m
@@ -19,13 +18,10 @@ Requires the CORA toolbox available on MATLAB to compute the zonotopes.
 
 
 
-## Running
----
 
 
 
 ## Citation
----
 ```
 @article{bouvier2023resilience,  
   title = {Resilience of Linear Systems to Partial Loss of Control Authority},   
@@ -40,7 +36,7 @@ Requires the CORA toolbox available on MATLAB to compute the zonotopes.
 
 
 ## Contributors
----
+
 - [Jean-Baptiste Bouvier](https://jean-baptistebouvier.github.io/)
 - [Melkior Ornik](https://mornik.web.illinois.edu/)
 
