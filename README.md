@@ -11,9 +11,13 @@ This project studies the resilience of linear systems to a partial loss of contr
 
 
 This work focuses on quantifying the resilience of linear systems of nominal dynamics
+
 $$\dot{x}(t) = Ax(t) + \bar{B} \bar{u}(t), \qquad x(0) = x_0 \in \mathbb{R}^n, \qquad \bar{u}(t) \in \bar{\mathcal{U}},$$
+
 where $\bar{B} \in \mathbb{R}^{n \times (m+p)}$ is a constant matrix. After a *loss of control authority* over $p$ of the initial $m+p$ actuators of the system, we split control matrix $\bar{B}$ into two submatrices $B \in \mathbb{R}^{n \times m}$ and $C \in \mathbb{R}^{n \times p}$ representing respectively the controlled and uncontrolled actuators. Similarly, the input signal $\bar{u}$ and its constraint set $\bar{\mathcal{U}}$ are split between the admissible control signal $u$ belonging to compact set $\mathcal{U}$, and the uncontrolled and possibly undesirable input signal $w$ taking values in compact set $\mathcal{W}$. Then, the dynamics of the malfunctioning system can be written as
+
 $$\dot{x}(t) = Ax(t) + Bu(t) + Cw(t), \qquad x(0) = x_0 \in \mathbb{R}^n, \qquad u(t) \in \mathcal{U}, \quad w(t) \in \mathcal{W}.$$
+
 A target $x_g \in \mathbb{R}^n$ is *resiliently reachable* if for all undesirable input $w$ there exists a control input $u$ driving the state of the malfunctioning system from $x_0$ to $x_g$ in a finite time.
 The nominal system is *resilient* to this partial loss of control authority if any target is resiliently reachable.
 **We derive resilience conditions for the nominal system.**
@@ -98,7 +102,7 @@ If a worker is manually overiding the control system by opening and/or closing t
 
 ## File Structure
 
-- The ADMIRE simulation is run with `amire_reachability.m` and requires the [CORA](https://tumcps.github.io/CORA/) toolbox available on MATLAB to compute the zonotopes.
+- The ADMIRE simulation is run with `Admire_reachability.m` and requires the [CORA](https://tumcps.github.io/CORA/) toolbox available on MATLAB to compute the zonotopes.
 - The temperature simulation is run with `temperature.m`.
 - The functions `time_optimal_Eaton.m` and `time_optimal_Sakawa.m` compute the minimal reachability times for linear systems. They are used in the code `temperature.m`.
 
